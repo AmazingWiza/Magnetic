@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class WireLoop : MonoBehaviour {
     public int segments = 50;
-    public float radius = 2f;
+    public float radius = 0.75f;
     LineRenderer lr;
     public Vector3 direction;
-    public float distance = 10;
+    public float distance = 5;
     void Start() {
         direction = new Vector3(0, 0, 1);
         lr = GetComponent<LineRenderer>();
